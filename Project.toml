@@ -1,0 +1,7 @@
+name = "libunistringBuilder"
+uuid = "38d53ae4-17a8-11e9-3e71-3949ffb29c94"
+authors = ["YuK_Ota <whitenightwinter@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BinaryBuilder = "12aac903-9f7c-5d81-afc2-d9565ea332ae"
