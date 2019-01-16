@@ -16,7 +16,7 @@ sources = [
 script = raw"""
 cd $WORKSPACE/srcdir
 cd libunistring-0.9.10/
-./configure --prefix=$prefix --host=$target
+./configure --prefix=$prefix --host=$target LDFLAGS=-L$prefix/lib CFLAGS=-I$prefix/include
 make
 make install
 exit
